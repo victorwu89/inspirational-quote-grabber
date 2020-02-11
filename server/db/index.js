@@ -1,7 +1,7 @@
 //const mongoose = require('mongoose')
 import mongoose from 'mongoose'
 
-//TODO Add environment variable so password and url is protected
+//TODO Add environment variable
 mongoose
   .connect('' , { useNewUrlParser: true, useUnifiedTopology: true})
   .catch(e => {
